@@ -46,6 +46,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
+/*
 html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
@@ -256,10 +257,11 @@ td,
 th {
 	padding: 0;
 }
-
+*/
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
+/*
 body,
 button,
 input,
@@ -336,10 +338,11 @@ ins {
 big {
 	font-size: 125%;
 }
-
+*/
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
+/*
 html {
 	box-sizing: border-box;
 }
@@ -347,13 +350,14 @@ html {
 *,
 *:before,
 *:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+/*
 	box-sizing: inherit;
 }
 
 body {
 	background: #fff; /* Fallback for when there is no custom background color defined. */
 }
-
+/*
 blockquote:before,
 blockquote:after,
 q:before,
@@ -402,11 +406,11 @@ dd {
 
 img {
 	height: auto; /* Make sure images are scaled correctly. */
-	max-width: 100%; /* Adhere to container width. */
+	/*max-width: 100%; /* Adhere to container width. 
 }
 
 figure {
-	margin: 1em 0; /* Extra wide images within figure tags don't overflow the content area. */
+	margin: 1em 0; /* Extra wide images within figure tags don't overflow the content area. 
 }
 
 table {
@@ -417,6 +421,7 @@ table {
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
+/*
 button,
 input[type="button"],
 input[type="reset"],
@@ -505,6 +510,7 @@ textarea {
 /*--------------------------------------------------------------
 ## Links
 --------------------------------------------------------------*/
+/*
 a {
 	color: royalblue;
 }
@@ -531,6 +537,7 @@ a:active {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
+/*
 .main-navigation {
 	clear: both;
 	display: block;
@@ -606,6 +613,7 @@ a:active {
 }
 
 /* Small menu. */
+/*
 .menu-toggle,
 .main-navigation.toggled ul {
 	display: block;
@@ -645,14 +653,16 @@ a:active {
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
+
 /* Text meant only for screen readers. */
+/*
 .screen-reader-text {
 	clip: rect(1px, 1px, 1px, 1px);
 	position: absolute !important;
 	height: 1px;
 	width: 1px;
 	overflow: hidden;
-	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. 
 }
 
 .screen-reader-text:focus {
@@ -672,17 +682,17 @@ a:active {
 	text-decoration: none;
 	top: 5px;
 	width: auto;
-	z-index: 100000; /* Above WP toolbar. */
+	z-index: 100000; /* Above WP toolbar. 
 }
 
-/* Do not show the outline on the skip link target. */
+/* Do not show the outline on the skip link target. 
 #content[tabindex="-1"]:focus {
 	outline: 0;
 }
 
 /*--------------------------------------------------------------
 # Alignments
---------------------------------------------------------------*/
+--------------------------------------------------------------
 .alignleft {
 	display: inline;
 	float: left;
@@ -704,7 +714,7 @@ a:active {
 
 /*--------------------------------------------------------------
 # Clearings
---------------------------------------------------------------*/
+--------------------------------------------------------------
 .clear:before,
 .clear:after,
 .entry-content:before,
@@ -733,12 +743,12 @@ a:active {
 
 /*--------------------------------------------------------------
 # Widgets
---------------------------------------------------------------*/
+--------------------------------------------------------------
 .widget {
 	margin: 0 0 1.5em;
 }
 
-/* Make sure select elements fit in widgets. */
+/* Make sure select elements fit in widgets. 
 .widget select {
 	max-width: 100%;
 }
@@ -748,7 +758,7 @@ a:active {
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
 ## Posts and pages
---------------------------------------------------------------*/
+--------------------------------------------------------------
 .sticky {
 	display: block;
 }
@@ -780,7 +790,7 @@ a:active {
 
 /*--------------------------------------------------------------
 ## Comments
---------------------------------------------------------------*/
+--------------------------------------------------------------
 .comment-content a {
 	word-wrap: break-word;
 }
@@ -791,21 +801,21 @@ a:active {
 
 /*--------------------------------------------------------------
 # Infinite scroll
---------------------------------------------------------------*/
+--------------------------------------------------------------
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
-.infinite-scroll .posts-navigation, /* Older / Newer Posts Navigation (always hidden) */
-.infinite-scroll.neverending .site-footer { /* Theme Footer (when set to scrolling) */
-	display: none;
+/*.infinite-scroll .posts-navigation, /* Older / Newer Posts Navigation (always hidden) */
+/*.infinite-scroll.neverending .site-footer { /* Theme Footer (when set to scrolling) */
+	/*display: none;
 }
 
-/* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
+/* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. 
 .infinity-end.neverending .site-footer {
 	display: block;
 }
 
 /*--------------------------------------------------------------
 # Media
---------------------------------------------------------------*/
+--------------------------------------------------------------
 .page-content .wp-smiley,
 .entry-content .wp-smiley,
 .comment-content .wp-smiley {
@@ -815,7 +825,7 @@ a:active {
 	padding: 0;
 }
 
-/* Make sure embeds and iframes fit their containers. */
+/* Make sure embeds and iframes fit their containers. 
 embed,
 iframe,
 object {
@@ -824,7 +834,7 @@ object {
 
 /*--------------------------------------------------------------
 ## Captions
---------------------------------------------------------------*/
+--------------------------------------------------------------
 .wp-caption {
 	margin-bottom: 1.5em;
 	max-width: 100%;
@@ -846,7 +856,7 @@ object {
 
 /*--------------------------------------------------------------
 ## Galleries
---------------------------------------------------------------*/
+--------------------------------------------------------------
 .gallery {
 	margin-bottom: 1.5em;
 }
@@ -892,4 +902,78 @@ object {
 
 .gallery-caption {
 	display: block;
+}
+*/
+html {
+	margin-top:0;
+}
+#Header {
+    width: 100%;
+    height: 91px;
+    background-size: 100%;
+    padding-bottom: 13px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 999999;
+    background: rgba(255,255,255,1)
+}
+a {
+	color:#15315E !important;
+	text-decoration:none;
+}
+.sds-logo{
+	height:110px;
+	z-index:99;
+	background-color:#fff;
+}
+.main-menu{
+	height:110px;
+	text-decoration:none;
+	/*text-align:center;*/
+}
+.main-menu ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	font-family:Cabin;
+	font-size:15px;
+}
+.main-menu ul li{
+	height:100%;
+	display:inline-block;
+	padding:0 15px;
+	margin-right:20px;
+	line-height:110px;
+}
+.main-menu ul li:hover {
+	height:100%;
+    background-color: #111;
+}
+.main-menu li:hover a{
+	color:white !important;
+	text-decoration:none;
+}
+.grad-border{
+	width:100%;
+	height:10px;
+	margin-right:auto;
+	margin-left:auto;
+}
+.grad-blue{
+	background:#15315E;
+	height:100%; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(right,rgba(21,49,94, 1),rgba(21,49,94, 0)); /*Safari 5.1-6*/
+	background: -o-linear-gradient(right,rgba(21,49,94, 1),rgba(21,49,94, 0)); /*Opera 11.1-12*/
+	background: -moz-linear-gradient(right,rgba(21,49,94, 1),rgba(21,49,94, 0)); /*Fx 3.6-15*/
+	background: linear-gradient(to right, rgba(21,49,94, 1), rgba(21,49,94, 0)); /*Standard*/
+}
+.grad-red{
+	background-color:red;
+	height:100%;
+	background: -webkit-linear-gradient(left,rgba(233,27,35, 0),rgba(233,27,35, 0.8)); /*Safari 5.1-6*/
+	background: -o-linear-gradient(right,rgba(233,27,35, 0),rgba(233,27,35, 0.8)); /*Opera 11.1-12*/
+	background: -moz-linear-gradient(right,rgba(233,27,35, 0),rgba(233,27,35, 0.8)); /*Fx 3.6-15*/
+	background: linear-gradient(to right, rgba(233,27,35, 0), rgba(233,27,35, 0.8)); /*Standard*/
 }
