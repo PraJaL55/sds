@@ -907,6 +907,47 @@ object {
 html {
 	margin-top:0;
 }
+/*Header media query*/
+@media only screen and (max-width: 767px) {
+.main-menu{
+	position:absolute;
+	width:100%;
+	margin:0;
+}
+header .main-menu ul{
+	overflow:hidden;
+	background-color:#505050;
+	margin-top:130px;
+	width:150%;
+	height:0;
+}
+
+header .main-menu ul.is-active{
+	height:auto;
+}
+header .main-menu ul li a{
+	color:#fff !important;
+	padding:10px;
+	
+}
+header .main-menu ul li{
+	float:none;
+	text-align:left;
+	width:100%;
+	line-height:60px;
+	border-bottom:2px solid #404040;
+}
+.mobile-menu{
+	display:block !important;
+	right:0;
+	z-index:9999;
+	position:absolute;
+}
+.sds-logo{
+	height:60px;
+	float:left;
+}
+}
 #Header {
     width: 100%;
     height: 91px;
@@ -923,13 +964,17 @@ a {
 	text-decoration:none;
 }
 .sds-logo{
-	height:110px;
+	height:95px;
 	z-index:99;
+	float:left;
 	background-color:#fff;
+	width:15%;
 }
 .main-menu{
-	height:110px;
+	height:95px;
 	text-decoration:none;
+	float:right;
+	width:75%;
 	/*text-align:center;*/
 }
 .main-menu ul{
@@ -945,11 +990,11 @@ a {
 	display:inline-block;
 	padding:0 15px;
 	margin-right:20px;
-	line-height:110px;
+	line-height:95px;
 }
 .main-menu ul li:hover {
 	height:100%;
-    background-color: #111;
+    background-color: #15315E;
 }
 .main-menu li:hover a{
 	color:white !important;
@@ -977,3 +1022,18 @@ a {
 	background: -moz-linear-gradient(right,rgba(233,27,35, 0),rgba(233,27,35, 0.8)); /*Fx 3.6-15*/
 	background: linear-gradient(to right, rgba(233,27,35, 0), rgba(233,27,35, 0.8)); /*Standard*/
 }
+.mobile-menu{
+	height:110px;
+	width:auto;
+	padding:30px;
+	display:none;
+}
+ 
+ /*------------------------Header Ends-------------------------*/
+ 
+ /*------------------------HomePage Starts-------------------------*/
+ #content{
+	 margin-top:100px;
+ }
+
+ /*------------------------HomePage Ends-------------------------*/
