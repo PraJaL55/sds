@@ -951,7 +951,7 @@ html {
 
 #Header {
     width: 100%;
-    height: 91px;
+    height: 95px;
     background-size: 100%;
     padding-bottom: 13px;
     position: fixed;
@@ -1035,6 +1035,13 @@ a {
  /*------------------------HomePage Starts-------------------------*/
  #content{
 	 margin-top:100px;
+ }
+.section{
+	margin-top:-15px;
+}
+.section img{
+	 width:100%;
+	 height:100%;
  }
 
  /*------------------------HomePage Ends-------------------------*/

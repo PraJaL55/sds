@@ -17,10 +17,10 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 			<div id="fullpage">
-				<div class="section">Some section</div>
-				<div class="section">Some section</div>
-				<div class="section">Some section</div>
-				<div class="section">Some section</div>
+				<div class="section"><img src="<?php echo get_template_directory_uri(); ?>/img/img3.png"/></div>
+				<div class="section"><img src="<?php echo get_template_directory_uri(); ?>/img/img2.jpg"/></div>
+				<div class="section"><img src="<?php echo get_template_directory_uri(); ?>/img/img1.jpg"/></div>
+				<div class="section"><img src="<?php echo get_template_directory_uri(); ?>/img/img4.jpg"/></div>
 			</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->	
