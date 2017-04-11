@@ -23,17 +23,10 @@ get_header(); ?>
 				<div class="section">Some section</div>
 			</div>
 		</main><!-- #main -->
-	</div><!-- #primary -->
- 
-<script type="text/javascript">
-	$(document).ready(function() {
-		$('#fullpage').fullpage();
-	});
-</script>
-	
+	</div><!-- #primary -->	
 <?php /*
 get_sidebar();
 */ ?>
 <?php
-//get_footer();
+get_footer();
 ?>

@@ -14,14 +14,13 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'sds' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'sds' ), 'WordPress' ); ?></a>
+		<!--<div class="site-info">
+			<a href="<?php // echo esc_url( __( 'https://wordpress.org/', 'sds' ) ); ?>"><?php // printf( esc_html__( 'Proudly powered by %s', 'sds' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'sds' ), 'sds', '<a href="https://automattic.com/" rel="designer">PraJaL</a>' ); ?>
-		</div><!-- .site-info -->
+			<?php // printf( esc_html__( 'Theme: %1$s by %2$s.', 'sds' ), 'sds', '<a href="https://automattic.com/" rel="designer">PraJaL</a>' ); ?>
+		</div><!-- .site-info -->-->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
-
 <?php wp_footer(); ?>
 
 </body>
