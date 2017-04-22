@@ -12,13 +12,19 @@
 ?>
 
 	</div><!-- #content -->
-
+	
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<!--<div class="site-info">
-			<a href="<?php // echo esc_url( __( 'https://wordpress.org/', 'sds' ) ); ?>"><?php // printf( esc_html__( 'Proudly powered by %s', 'sds' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php // printf( esc_html__( 'Theme: %1$s by %2$s.', 'sds' ), 'sds', '<a href="https://automattic.com/" rel="designer">PraJaL</a>' ); ?>
-		</div><!-- .site-info -->-->
+		<div class="row">
+			<div class="col-md-4 footer-cols"><h3>About Us</h3></div>
+			<div class="col-md-4 footer-cols"><h3 id="follow_us">Follow Us On</h3></div>
+			<div class="col-md-4 footer-cols">
+				<!--Facebook-->
+				<button type="button" class="btn btn-primary"><i class="fa fa-facebook left"></i> Facebook</button>
+				<!--Twitter-->
+				<button type="button" class="btn btn-primary"><i class="fa fa-twitter left"></i> Twitter</button>
+				<!--Linkedin-->
+				<button type="button" class="btn btn-primary"><i class="fa fa-linkedin left"></i> Linkedin</button></div>
+			</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 <?php wp_footer(); ?>

@@ -1045,3 +1045,30 @@ a {
  }
 
  /*------------------------HomePage Ends-------------------------*/
+ 
+ .site-footer .row{
+	 display:flex;
+	 height:auto;
+	 width:100%;
+	 position:absolute;
+	 bottom:0 !important;
+	 background-color:#333;
+	 color:#fff;
+}
+.footer-cols{
+	text-align:center;
+	width:30%;
+	height:100%;
+}
+.footer-cols .btn{
+	width:75%;
+	margin:10px 5px;
+	background-color:royalblue;
+}
+h3{
+	border-left:2px white solid;
+}
+h4{
+	border: 3px white solid;
+	background-color: white;
+}
