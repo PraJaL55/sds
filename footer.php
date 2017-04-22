@@ -15,7 +15,12 @@
 	
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="row">
-			<div class="col-md-4 footer-cols"><h3>About Us</h3></div>
+			<div id="about_us" class="col-md-4 footer-cols" ><h3>About Us</h3>
+								<p>© 2014 SDS 
+								All Rights Reserved.
+								Disclaimer | Privacy Policy
+								CALL US NOW
+								+1-732-961-8383</p></div>
 			<div class="col-md-4 footer-cols"><h3 id="follow_us">Follow Us On</h3></div>
 			<div class="col-md-4 footer-cols">
 				<!--Facebook-->

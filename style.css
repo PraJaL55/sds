@@ -1058,17 +1058,21 @@ a {
 .footer-cols{
 	text-align:center;
 	width:30%;
-	height:100%;
+	border-left: 2px solid #fff;
 }
 .footer-cols .btn{
-	width:75%;
+	width:40%;
 	margin:10px 5px;
 	background-color:royalblue;
 }
-h3{
-	border-left:2px white solid;
+
+#follow_us{
+	border: 1px solid #fff;
+	border-radius: 4px;
+	padding: 8px 6px;
+	margin-top: 15%;
 }
-h4{
-	border: 3px white solid;
-	background-color: white;
+#about_us{
+	margin-left:7%;
 }
+
