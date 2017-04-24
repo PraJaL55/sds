@@ -13,3 +13,11 @@ hamburger.classList.toggle("is-active");
 $(document).ready(function() {
 	$('#fullpage').fullpage();
 });
+
+$(document).ready(function() {
+	$('#sec2').hover(function(){
+		$('.object').slideToggle("slow");
+	});
+});
+
+
